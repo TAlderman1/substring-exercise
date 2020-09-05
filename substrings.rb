@@ -10,7 +10,8 @@ def substrings(str, arr)
       end
     end
   end
-  pp countHash
+  p countHash
 end
 
 substrings("Howdy partner, sit down! How's it going?", dictionary)
+# returns {:how=>2, :howdy=>1, :part=>1, :partner=>1, :it=>2, :i=>3, :sit=>1, :down=>1, :own=>1, :go=>1, :going=>1}
