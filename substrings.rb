@@ -6,7 +6,7 @@ def substrings(str, arr)
   strSplit.each() do |e|
     arr.each() do |r|
       if e.include?(r)
-        countHash[r] += 1
+        countHash[r.to_sym] += 1
       end
     end
   end
